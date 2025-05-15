@@ -3,8 +3,8 @@ import requests
 res = requests.post(
     "https://solution-challenge-9bby.onrender.com/barcode",
     json={
-        "barcode": "8809423780375",
-        "disease_ids": [1, 3]
+        "barcode": "8801007403182",
+        "disease_name": "Galactosemia"
     }
 )
 
